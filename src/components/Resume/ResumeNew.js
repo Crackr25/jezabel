@@ -14,11 +14,11 @@ function ResumeNew() {
       <Container fluid className="resume-section">
         <Particle />
         <Container>
-          <h4>
+          <h4 className="my-2">
             {" "}
             <b className="purple"> Contact Us </b>{" "}
           </h4>
-          <p>
+          <p className="mt-5">
             <strong>
               {" "}
               <b className="purple"> Address: </b>
@@ -27,7 +27,7 @@ function ResumeNew() {
             123 Main Street, Suite 101 <br />
             City, State, ZIP Code
           </p>
-          <p>
+          <p className="my-5">
             <strong>
               {" "}
               <b className="purple">Phone: </b>
@@ -40,7 +40,7 @@ function ResumeNew() {
             </strong>{" "}
             IBT3Aaccountingfirm@gmail.com
           </p>
-          <p>
+          <p className="my-5">
             <strong>
               {" "}
               <b className="purple"> Office Hours: </b>
@@ -50,13 +50,13 @@ function ResumeNew() {
             Saturday: By appointment only <br />
             Sunday: Closed
           </p>
-          <h5>
+          <h5 className="my-2">
             {" "}
             <b className="purple"> Social Media </b>
           </h5>
           <p>
             {" "}
-            <b className="purple"> Connect with us: IBT3A ACCOUNTING FIRM </b>
+            <b className="purple"> Connect with us: </b> IBT3A ACCOUNTING FIRM
           </p>
           <a
             href="https://www.facebook.com/IBT3AACCOUNTINGFIRM"
@@ -66,12 +66,12 @@ function ResumeNew() {
           >
             <AiFillFacebook />
           </a>
-          <h5>Contact Form</h5>
+          <h5 className="mt-5">Contact Form</h5>
           <strong> [Name] </strong> IBT3A ACCOUNTING FIRM <br />{" "}
           <strong> [Email Address] </strong>
           IBT3Aaccountingfirm@gmail.com <br />
           <strong>[Phone Number] </strong> 09997689856
-          <h5>
+          <h5 className="mt-5">
             {" "}
             <b className="purple"> Privacy Policy </b>{" "}
           </h5>
@@ -109,12 +109,12 @@ function ResumeNew() {
           any of these rights. Changes to This Privacy Policy We may update this
           Privacy Policy from time to time. Any changes will be posted on this
           page, and the effective date will be updated accordingly.
-          <h5>Call to Action</h5>
+          <h5 className="mt-5">Call to Action</h5>
           <p>
             Ready to take control of your finances? Contact us today for a free
             consultation!
           </p>
-          <h5>Accessibility</h5>
+          <h5 className="mt-5">Accessibility</h5>
           <p>
             Our office is wheelchair accessible. Please let us know if you
             require any additional accommodations.

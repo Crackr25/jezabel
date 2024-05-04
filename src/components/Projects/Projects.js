@@ -11,7 +11,7 @@ function Projects() {
       <Container>
         <Row className="justify-content-center">
           <Col md={6}>
-            <h1 className="project-heading">Vission</h1>
+            <h1 className="project-heading">Vision</h1>
             <p style={{ color: "white" }}>
               Our vision is to establish ourselves as the preeminent provider of
               comprehensive bookkeeping and accounting solutions, tailored to
@@ -28,7 +28,7 @@ function Projects() {
             </p>
           </Col>
           <Col md={12} className="text-center myAvtar">
-            {" "}
+            <h1 className="project-heading">Our Team</h1>{" "}
             <img
               src={Image}
               alt="Your Alt Text"

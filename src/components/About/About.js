@@ -5,7 +5,7 @@ import Aboutcard from "./AboutCard";
 import Aboutcard2 from "./AboutCard2";
 import Aboutcard3 from "./AboutCard3";
 import Aboutcard4 from "./AboutCard4";
-import laptopImg from "../../Assets/about.png";
+import laptopImg from "../../Assets/5495.png";
 
 function About() {
   return (
