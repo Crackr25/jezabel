@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Particle from "../Particle";
-import Image from "../../Assets/bg-chart.png";
+import Image from "../../Assets/chart.jpg";
 import Tilt from "react-parallax-tilt";
 
 function Projects() {
