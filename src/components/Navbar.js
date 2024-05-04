@@ -6,8 +6,9 @@ import logo from "../Assets/logo.png";
 import { Link } from "react-router-dom";
 import {
   AiOutlineHome,
-  AiOutlineFundProjectionScreen,
-  AiOutlineUser,
+  AiFillInfoCircle,
+  AiFillCustomerService,
+  AiFillPhone,
 } from "react-icons/ai";
 
 import { CgFileDocument } from "react-icons/cg";
@@ -61,7 +62,8 @@ function NavBar() {
                 to="/about"
                 onClick={() => updateExpanded(false)}
               >
-                <AiOutlineUser style={{ marginBottom: "2px" }} /> Services
+                <AiFillCustomerService style={{ marginBottom: "2px" }} />{" "}
+                Services
               </Nav.Link>
             </Nav.Item>
 
@@ -71,10 +73,17 @@ function NavBar() {
                 to="/project"
                 onClick={() => updateExpanded(false)}
               >
-                <AiOutlineFundProjectionScreen
-                  style={{ marginBottom: "2px" }}
-                />{" "}
-                About us
+                <AiFillInfoCircle style={{ marginBottom: "2px" }} /> About us
+              </Nav.Link>
+            </Nav.Item>
+
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/resume"
+                onClick={() => updateExpanded(false)}
+              >
+                <AiFillPhone style={{ marginBottom: "2px" }} /> Contact Us
               </Nav.Link>
             </Nav.Item>
           </Nav>

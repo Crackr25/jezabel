@@ -11,6 +11,15 @@ function Projects() {
       <Container>
         <Row className="justify-content-center">
           <Col md={6}>
+            <h1 className="project-heading">Vission</h1>
+            <p style={{ color: "white" }}>
+              Our vision is to establish ourselves as the preeminent provider of
+              comprehensive bookkeeping and accounting solutions, tailored to
+              the specific needs of every business by consistently delivering
+              exceptional service and building trust through proven results.
+            </p>
+          </Col>
+          <Col md={7}>
             <h1 className="project-heading">Mission</h1>
             <p style={{ color: "white" }}>
               We meticulously navigate the financial journey for our clients,
